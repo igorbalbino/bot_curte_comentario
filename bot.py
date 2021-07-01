@@ -169,7 +169,7 @@ class TelaPython:
             #CRIA ELEMENTO NA TELA COM UM INPUT PARA RECEBER DADOS
             [sg.Text('')],
             [sg.Text('Usuário', size=(10, 0)), sg.Input(size=(30, 0), key='username', default_text='igor927482')],
-            [sg.Text('Senha', size=(10, 0)), sg.Input(size=(30, 0), key='password', password_char='*', default_text='12131212aA@')],
+            [sg.Text('Senha', size=(10, 0)), sg.Input(size=(30, 0), key='password', password_char='*')],
             [sg.Text('')],
             [sg.Text('Rotações', size=(10, 0)), sg.Input(size=(30, 0), key='rotations', default_text='2')],
             [sg.Text('')],
